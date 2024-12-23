@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolon Sitio Café</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=13286&format=png&color=000000" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body" id="body">
+    <header id="header" class="header">
+        <div class="tituloPagina">
+            <h1 class="tituloPagina-h1">Bolón Sitio Café</h1>
+            <img class="tituloPagina-img" id="header-img" src="https://img.icons8.com/?size=100&id=13286&format=png&color=000000" alt="Carpincho">
+        </div>
+
+        <nav class="nav-bar" id="nav-bar">
+            <a class="nav-link" href="#body">Inicio</a>
+            <a class="nav-link" href="#envio">Envio</a>
+            <a class="nav-link" href="#sobreNosotros">Sobre Nosotros</a>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="inicio" id="inicio">
+            <h2 class="inicio-h2">¡Bienvenidos Bolón Sitio Café!</h2>
+            <p class="inicio-p">Los mejores desayunos típicos, acompañados de jugo y/o café pasado, con entrega a domicilio en Duran, el norte de Guayaquil, Daule y Samborondón.</p>
+        </div>
+         
+        <section class="sectionFlex">
+            <div class="envio" id="envio">
+                <h2 class="sectionFlex-h2">Detalles de envio</h2>
+                <form class="envio-form" id="form" method="post" action='https://www.freecodecamp.com/email-submit'>
+                    <label class="envio-form-label" for="name">
+                        <h3>Nombre completo</h3>
+                        <input type="name" name="" id="name" placeholder="Felix Antonio Bajaña Madrid">
+                    </label>
+                    
+                    <label class="envio-form-label" for="email">
+                        <h3>Email de contacto</h3>
+                        <input type="email" name="email" id="email" placeholder="tuamigofelix@gmail.com">
+                    </label>
+
+                    <label class="envio-form-select" for="orden">
+                        <h3>¿Que producto desea?</h3>
+                        <select name="orden" id="orden">
+                            <option value="0">Elija una</option>
+                            <option value="1">Bolón de Queso</option>
+                            <option value="2">Bolón de Chicharrón</option>
+                            <option value="3">Bolon Mixto</option>
+                        </select>
+                    </label>
+
+                    <label class="envio-form-label" for="cantidad">
+                        <h3>Cantidad</h3>
+                        <input type="number" name="cantidad" id="cantidad" min="0" max="50" step="1" placeholder="Cantidad de Unidades">
+                    </label>
+
+                    <label class="envio-form-label" for="dirección">
+                        <h3>Dirección</h3>
+                        <textarea class="textarea-direccion" name="dirección" id="dirección" placeholder="Juan Bautista Alberdi 2024"></textarea>
+                    </label>
+                    
+                    <input class="envio-form-submit" type="submit" name="enviar" id="submit" value="Mandar">
+                </form>
+            </div>
+            
+            <div class="tablaDePrecios">
+                <h2 class="sectionFlex-h2">Órdenes</h2>
+                <section class="listaDePrecios">
+                    <div class="precio">
+                        <img class="precio-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR3XoJgD-slH4i8OU2q6qyXmCvmHiQ5zRdmcfsszo5HCa2W4rjX9DX_9DfugXKN4AzN-Q&usqp=CAU" alt="Bolones">
+                        <article class="precio-info">
+                            <h3 class="precio-info-h3">Bolón de Queso</h3>
+                            <p class="precio-info-p">Cuesta $2.50 y con jugo de Naranaj o Café $3.50</p>
+                        </article>
+                    </div>
+                    <div class="precio">
+                        <img class="precio-img" src="https://i.pinimg.com/1200x/5f/dc/40/5fdc40bdc4594a1c9f02994168bd644f.jpg" alt="Bolones">
+                        <article class="precio-info">
+                            <h3 class="precio-info-h3">Bolón de Chicarrón</h3>
+                            <p class="precio-info-p">Cuesta $3 y con jugo de Naranja o Café $4</p>
+                        </article>
+                    </div>
+                    <div class="precio">
+                        <img class="precio-img" src="https://queondagye.com/wp-content/uploads/2024/08/Boloncity-portada-1024x724.jpeg" alt="Bolones">
+                        <article class="precio-info">
+                            <h3 class="precio-info-h3">Bolón Mixto</h3>
+                            <p class="precio-info-p"> Cuesta $4 y con jugo de Naranja o Cafe $5</p>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <div class="sobreNosotros" id="sobreNosotros">
+            <h2 class="sobreNosotros-h2">Sobre Nosotros</h2>
+            <p class="sobreNosotros-p">
+                Bolón Sitio nació de nuestra pasión por la comida ecuatoriana y, en especial, por el tradicional bolón. Queremos compartir contigo la auténtica experiencia de saborear un bolón recién hecho, elaborado con ingredientes frescos y de la más alta calidad. Nuestro objetivo es convertirnos en el lugar de encuentro favorito de los amantes del bolón en Durán.
+            </p>
+            
+            <p class="sobreNosotros-p">
+                En Bolón Sitio, utilizamos plátanos verdes de la mejor calidad, cultivados en las tierras fértiles de nuestra región. Combinamos estos plátanos con chicharrón crujiente, queso fresco y una variedad de salsas caseras. Cada bolón es preparado al momento para garantizar su frescura y sabor.
+            </p>
+            
+            <p class="sobreNosotros-p">
+                Nuestro café te transportará a un rincón de Ecuador, donde podrás disfrutar de un ambiente cálido y acogedor. Decorado con elementos tradicionales, Bolón Sitio es el lugar ideal para compartir momentos especiales con amigos y familiares.
+            </p>
+            
+            <p class="sobreNosotros-p">
+                Además de nuestros deliciosos bolones, ofrecemos servicio a domicilio para que puedas disfrutar de tu comida favorita en la comodidad de tu hogar. También organizamos eventos especiales para grupos y empresas. Nuestro compromiso con el medio ambiente nos lleva a utilizar productos locales y a reducir nuestro impacto ambiental.
+            </p>
+            
+            <p class="sobreNosotros-p">
+                Te esperamos en Bolón Sitio Café para que juntos disfrutemos de la auténtica experiencia de lo que es un buen Bolón!
+            </p>
+            
+            <h2 class="sobreNosotros-h3">Te dejamos un video de como hacemos nuestros exquisitos Bolones.</h2>
+           <p class="sobreNosotros-p2"> <iframe class="sobreNosotros-iframe" id="video" width="560" height="315" src="https://www.youtube.com/embed/UaCEH8cRzpI?si=A1Vxf5ryO-Q0CFQ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+        </div>
+    </main>
+    
+</body>
+</html>
